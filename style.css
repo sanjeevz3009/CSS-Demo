@@ -1,0 +1,67 @@
+body {
+    background-color: lightgray;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.card {
+    background-color: white;
+    margin: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), -2px -2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px 10px 15px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.stat-item {
+    font-weight: bold;
+}
+
+.stat-item i {
+    color: red;
+    padding: 10px;
+    background-color: #FF000020;
+    border-radius: 5px;
+}
+
+.stats-container {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: auto;
+}
+
+.grey-container {
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.button {
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.button:hover {
+    background-color: rgb(0, 3, 210);
+}
